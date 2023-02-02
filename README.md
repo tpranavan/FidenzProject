@@ -2,8 +2,11 @@
 
 step 1 : Stored cities.json file to an array and displayed in HTML page ( see that in Jasonarrayview Folder ) :- DONE
 step 2 : built an Rest API to Get weather Date is : - DONE
+
 step 3 : built an Front - End UI : - DONE
+
 step 4 : Chaching  mechanism - DONE
+
 Additionall points : CREATED A DOCKER FILE TO DEPLOY MY APPLICATION - DONE
 
     DOCKER PULL COMMAND : - docker pull pranavan23/weatherapp-doc
