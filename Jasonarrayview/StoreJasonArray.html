@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $.ajax({
+          url: "cities.json",
+          dataType: "json",
+          success: function(data){
+            var output = "<table><thead><tr><th>City Code</th><th>City Name</th><th>Temperature</th><th>Status</th></tr></thead><tbody>";
+            for (var i in data.List) {
+              output += "<tr><td>" + data.List[i].CityCode + "</td><td>" + data.List[i].CityName + "</td><td>" + data.List[i].Temp + "</td><td>" + data.List[i].Status + "</td></tr>";
+            }
+            output += "</tbody></table>";
+            $("#result").html(output);
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="result"></div>
+  </body>
+</html>
