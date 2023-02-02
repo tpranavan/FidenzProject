@@ -14,8 +14,7 @@ Additionall points : CREATED A DOCKER FILE TO DEPLOY MY APPLICATION - DONE
     
    // docker Profile Link : https://hub.docker.com/r/pranavan23/weatherapp-doc
     
-    
-
+   
 
 1.	Project Information : Check the weather around you and all over the world at a glance. Rely on the accurate weather forecast and adjust your schedule to the weather coming in. You won’t even have to look out the window as the app will make you feel like you are already outside!
 
@@ -30,7 +29,9 @@ Additionall points : CREATED A DOCKER FILE TO DEPLOY MY APPLICATION - DONE
 2.	Technologies Used : 
 
 	openweathermap APIS - 
-Access current weather data for any location including over 200,000 cities.We collect and process weather data from different sources such as global and local weather models, satellites, radars and a vast network of weather stations. JSON, XML, and HTML formats . Included in both free and paid subscriptions
+Access current weather data for any location including over 200,000 cities.
+We collect and process weather data from different sources such as global and 
+local weather models, satellites, radars and a vast network of weather stations. 
 
 	Java Script  - 
 JavaScript makes HTML pages more dynamic and interactive.
@@ -40,3 +41,6 @@ Read data from a web server - after a web page has loaded
 Update a web page without reloading the page
 Send data to a web server - in the background:
 
+	Docker - 
+Docker containers make it easy to put new versions of software, with new business features, 
+into production quickly—and to quickly roll back to a previous version if you need to. 
